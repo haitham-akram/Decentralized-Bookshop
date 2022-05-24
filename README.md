@@ -62,7 +62,7 @@ You can also delete, delist or change the price of your book.
 - Open Ganache application and create your WORKSPACE or select QUICKSTART WORKSPACE and ensure that the app running on port 8545
 - Copy MNEMONIC which is your special secret this is created for you by Ganache. It's used to generate the addresses available during development as well as sign transactions sent from those addresses.
 - Go to [truffle-config](https://github.com/haitham-akram/Decentralized-Bookshop/tree/main/truffle-config.js) and paste your MNEMONIC in hdWalletProvider function.
-- Create an account in [infura](https://infura.io/) and copy your Link which will be like this "https://ropsten.infura.io/v3/YOUR PROJECT ID" and paste it after MNEMONIC in hdWalletProvider function.
+- Create an account in [infura](https://infura.io/) and copy your Link which will be like this `https://ropsten.infura.io/v3/YOUR PROJECT ID` and paste it after MNEMONIC in hdWalletProvider function.
 - Open your command line in the root root repos context and run`truffle migrate --reset` which redeploys the contracts on your local instance.
 - You have to run `npm install` in the root directory if you intend working on the smart contracts.
 
